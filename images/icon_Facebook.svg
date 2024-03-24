@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="37" viewBox="0 0 37 37">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_70" data-name="Retângulo 70" width="37" height="37" rx="5" transform="translate(2372 8457.377)" fill="#9b2018"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_4" data-name="Grupo de máscara 4" transform="translate(-2372 -8457.377)" clip-path="url(#clip-path)">
+    <g id="__TEMP__SVG__" transform="translate(2372 8457.377)">
+      <path id="Caminho_13" data-name="Caminho 13" d="M30.062,0a6.682,6.682,0,0,1,4.9,2.035A6.682,6.682,0,0,1,37,6.938V30.062A6.95,6.95,0,0,1,30.062,37H25.534V22.667h4.794l.723-5.589H25.534V13.514A3.088,3.088,0,0,1,26.1,11.49a2.809,2.809,0,0,1,2.2-.674l2.939-.024V5.805a32.29,32.29,0,0,0-4.288-.217,7.155,7.155,0,0,0-5.239,1.927,7.283,7.283,0,0,0-1.963,5.444v4.119H14.935v5.589h4.818V37H6.938a6.682,6.682,0,0,1-4.9-2.035A6.682,6.682,0,0,1,0,30.062V6.938a6.682,6.682,0,0,1,2.035-4.9A6.682,6.682,0,0,1,6.938,0Z" fill="#9b2018"/>
+    </g>
+  </g>
+</svg>
