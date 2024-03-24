@@ -1,0 +1,187 @@
+ /* -------------
+ 
+ General Styles */
+
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 50px;
+ }
+ 
+ body {
+    color: #3B3B3B;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+
+ /* -------------
+ 
+ Header Component */
+
+ #nav img {
+    width: 20px;
+    height: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+ }
+ 
+ #nav input, #burger-con {
+    display: none;
+ }
+
+ #nav input:checked ~ #burger-con {
+    display: block;
+ }
+
+ #nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+ #nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ #nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0; /* top right bottom left */
+    text-align: center;
+    color: #3B3B3B;
+ }
+
+ #nav ul li {
+    border-bottom: 1px solid #efefef
+ }
+
+ #nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+
+ #nav ul li:last-child {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+ }
+
+ #logo {
+    max-width: 382px;
+    margin-bottom: 20px;
+ }
+
+ /* -------------
+ 
+ Hero */
+ 
+ #hero {
+    background-image: url(/images/rooms_Hero_mobile.jpeg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 215px;
+ }
+
+ .book-now {
+    display: flex;
+    background-color: #9B2018;
+    color: white;
+    height: 67px;
+    font-size: 16px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+ }
+
+ .book-now:hover {
+    background-color: #C44242;
+ }
+
+ .page-title {
+    align-self: end;
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 15px 0px 15px;
+    font-weight: normal;
+ }
+
+ .page-title span {
+    font-size: 12px;
+    color: #C26B6A;
+ }
+
+ #hero-text p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #3B3B3B;
+    margin-bottom: 15px;
+ }
+
+ .included-meals {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 22px;
+    color: #C44242;
+    margin-bottom: 50px;
+    margin-top: 25px;
+ }
+
+ .included-meals img {
+    margin-right: 15px;
+    margin-bottom: -5px;
+ }
+
+ /* -------------
+ 
+ Footer */
+
+ #footer {
+    background-image: url(/images/footer_mobile.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 80px;
+ }
+
+ #footer-info h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 15px;
+ }
+
+ #footer-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 12px;
+ }
+
+ #footer-info > p:last-child {
+    margin: 0px;
+ }
+
+ #footer-policy {
+    font-size: 10px;
+    line-height: 18px;
+ }
