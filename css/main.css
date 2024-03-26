@@ -156,6 +156,238 @@
 
  /* -------------
  
+ Items List */
+
+ .red-tag {
+   background-color: #9B2018;
+   color: white;
+   font-weight: 100;
+   font-size: 16px;
+   padding: 10px 25px 10px 25px;
+ }
+
+#list-included-1 {
+   margin-top: 15px;
+}
+
+#list-included-2 {
+   margin-bottom: 50px;
+}
+
+ .item-included {
+   border-bottom: 1px #C26B6A solid;
+   display: flex;
+   padding: 10px 5px 10px 5px;
+   font-size: 12px;
+   color: #3B3B3B;
+ }
+
+ #last-item {
+   border-bottom: 1px #C26B6A solid;
+ }
+
+.item-included:last-of-type {
+   border-bottom: 0px;
+}
+
+ .item-included img {
+   width: 5px;
+   margin-right: 7px;
+ }
+
+  /* -------------
+ 
+ Room Types Gallery */
+
+#room-types {
+   gap: 10px;
+   margin-bottom: 50px;
+}
+
+ #room-types h3 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   font-size: 62px;
+   margin-top: 15px;
+   align-self: end;
+}
+
+.room-content {
+   color: white;
+   opacity: 0;
+   margin: 0px 25px 10px 25px;
+}
+
+.room-content:hover {
+   opacity: 100%;
+}
+
+.room-content p {
+   margin-bottom: 25px;
+}
+
+.room-content p span {
+   text-transform: uppercase;
+}
+
+.room-content ul {
+   padding-left: 15px;
+   font-size: 12px;
+   opacity: 75%;
+   margin-bottom: 25px;
+}
+
+.room-content ul li {
+   margin-bottom: 7px;
+}
+
+#chateaus {
+   background-image: url(/images/rooms_Chateaus_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+}
+
+#chateaus-wrap {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%);
+   transition: background-color 0.25s linear;
+}
+
+#chateaus-wrap:hover {
+   background-color: rgb(155,32,24,0.75);
+}
+
+
+#villas {
+   background-image: url(/images/rooms_Villas_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+}
+
+#villas-wrap {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%);
+   transition: background-color 0.25s linear;
+}
+
+#villas-wrap:hover {
+   background-color: rgb(155,32,24,0.75);
+}
+
+#masters {
+   background-image: url(/images/rooms_Masters_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+}
+
+#masters-wrap {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%);
+   transition: background-color 0.25s linear;
+}
+
+#masters-wrap:hover {
+   background-color: rgb(155,32,24,0.75);
+}
+
+#exotics {
+   background-image: url(/images/rooms_Exotics_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+}
+
+#exotics-wrap {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%);
+   transition: background-color 0.25s linear;
+}
+
+#exotics-wrap:hover {
+   background-color: rgb(155,32,24,0.75);
+}
+
+#chalets {
+   background-image: url(/images/rooms_Chalets_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+}
+
+#chalets-wrap {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%);
+   transition: background-color 0.25s linear;
+}
+
+#chalets-wrap:hover {
+   background-color: rgb(155,32,24,0.75);
+}
+
+#jr-suites {
+   background-image: url(/images/rooms_Jr-Suites_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+}
+
+#jr-suites-wrap {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 100%);
+   transition: background-color 0.25s linear;
+}
+
+#jr-suites-wrap:hover {
+   background-color: rgb(155,32,24,0.75);
+}
+
+ /* -------------
+ 
  Footer */
 
  #footer {
