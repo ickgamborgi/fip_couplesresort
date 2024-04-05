@@ -54,9 +54,11 @@
             <!-- Hero Chateaus -->
             <section class="grid-con" id="hero-chateaus">
                 <h2 class="hidden">Hero</h2>
-                <div class="col-start-3 col-span-2 book-now">
-                    <p>Book Now</p>
-                </div>
+                <a class="col-start-3 col-span-2 book-now" href="reservations.html">
+                    <div class="col-start-3 col-span-2">
+                        <h3>Book Now</h3>
+                    </div>
+                </a>
                 <section class="col-span-full page-title" id="rooms-heading">
                     <h2 class="section-title-h1">
                         <span>Couples Resort</span><br>
@@ -279,6 +281,9 @@
                         <input name="fullName" type="text" required placeholder="First & Last Name">
                         <input name="contactInfo" type="text" required placeholder="Email Address or Phone Number">
                         <textarea name="msg" placeholder="Question/Message"></textarea>
+                        <div class="col-span-full" id="consent-checkbox">
+                            <input type="checkbox" class="checkbox" required><span>By submiting this form, you consent with how we treat your data and agree to our Company's Privacy Policy.</span>
+                        </div>
                         <input name="submit" type="submit" value="Send">
                     </form>
                 </div>

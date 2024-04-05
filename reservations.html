@@ -14,12 +14,12 @@
         <link href="css/main.css" rel="stylesheet" type="text/css">
     
         <!-- Document Title -->
-        <title>Rooms - Couples Resort</title>
+        <title>Reservations - Couples Resort</title>
     </head>
 
     <!-- Body -->
     <body>
-        <h1 class="hidden">Rooms - Couples Resort</h1>
+        <h1 class="hidden">Reservations - Couples Resort</h1>
 
         <!-- Page Header -->
         <header class="grid-con" id="header">
@@ -32,7 +32,7 @@
                 </label>
                 <div id="burger-con">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="rooms.html">Rooms</a></li>
                         <li><a href="#">Packages</a></li>
                         <li><a href="#">Dining</a></li>
@@ -51,34 +51,118 @@
         <main>
             <h1 class="hidden">Inner Content</h1>
 
-            <!-- Hero -->
-            <section class="grid-con" id="hero">
+            <!-- Contact -->
+            <section class="grid-con" id="hero-contact">
                 <h2 class="hidden">Hero</h2>
-                <div class="col-start-3 col-span-2 book-now">
-                    <h3>Book Now</h3>
-                </div>
-                <section class="col-span-full" id="page-title">
+                <a class="col-start-3 col-span-2 book-now" href="reservations.html">
+                    <div class="col-start-3 col-span-2">
+                        <h3>Book Now</h3>
+                    </div>
+                </a>
+                <section class="col-span-full page-title">
                     <h2 class="section-title-h1">
                         <span>Couples Resort</span><br>
-                        Meet Our Rooms &amp; Accommodations
+                        Get In Touch With Us!
                     </h2>
                 </section>
             </section>
-
-            <!-- Hero Body Text -->
-            <section class="grid-con" id="hero-text">
-                <h2 class="hidden">Summary of our Acommodations</h2>
+            <section class="grid-con" id="contact-page">
+                <h3 class="hidden">Contact Information</h3>
                 <div class="col-span-full line-separator">
-                    <p>Our boutique luxury resort boasts a collection of Junior suite rooms and cottages, each meticulously designed with the couple in mind. From opulent Old European-inspired decor to the natural beauty of Haliburton style, every accommodation promises a unique and unforgettable experience for you and your partner. Indulge in spacious accommodations featuring Jacuzzis, wood-burning fireplaces, hot tubs, and an array of thoughtful amenities designed to enhance your romantic getaway.</p>
-                    <p>For over five decades, Couples Resort has been dedicated to fostering meaningful connections between couples. As a 100% Canadian-owned establishment, owned by the LeBlanc Family since 1958, we take pride in our heritage and commitment to excellence.</p>
-                    <p>Experience the magic of Couples Resort and create lasting memories in the heart of Ontario's stunning wilderness.</p>
+                    <p>
+                        Thank you for taking the time to learn more about our resort and why we are Ontario's number one choice for couples looking to reconnect.  For reservation enquiries and further information, please complete our contact form below.  Or if you prefer to talked call us at our toll free number listed below.
+                    </p>
+                    <h4>Couples Resort (Inc.)</h4>
+                    <p>
+                        1198 Osprey Rd, (End of)<br>
+                        Minden, Soyers Lake, ON<br>
+                        K0M 2K0
+                    </p>
+                    <p>
+                        Toll Free: +1 877 201-1156<br>
+                        FAX: +1 613 638 2217<br>
+                        E-mail: info@coupleresort.com
+                    </p>
                 </div>
-                <div class="col-span-full included-meals">
-                    <img src="./images/icon_Included.svg" alt="Included Meals Icon">
-                    <h3>All room prices include daily 5 course dinner and breakfast</h3>
+                <div class="col-span-2" id="social-media-links">
+                    <div class="social-media">
+                        <img src="./images/icon_Instagram.svg" alt="Instagram Icon">
+                        <h4>Instagram</h4>
+                    </div>
+                    <div class="social-media">
+                        <img src="./images/icon_Facebook.svg" alt="Facebook Icon">
+                        <h4>Facebook</h4>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Form -->
+            <section class="grid-con" id="contact-form">
+                <h3 class="hidden">Contact Form</h3>
+                <div class="col-span-full">
+                    <form action="#" method="post" enctype="text/plain">
+                        <input name="fullName" type="text" required placeholder="First & Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Email Address or Phone Number">
+                        <textarea name="msg" placeholder="Question/Message"></textarea>
+                        <div class="col-span-full" id="consent-checkbox">
+                            <input type="checkbox" class="checkbox" required><span>By submiting this form, you consent with how we treat your data and agree to our Company's Privacy Policy.</span>
+                        </div>
+                        <input name="submit" type="submit" value="Send">
+                    </form>
                 </div>
             </section>
             
+            <!-- Weather/Directions -->
+            <section class="grid-con" id="weather-directions">
+                <h2 class="hidden">Weather/Directions</h2>
+                <div class="season-box col-span-full" id="weather">
+                    <a class="col-span-full activity-hover" href="https://www.theweathernetwork.com/ca/weather/ontario/london" target="_blank">
+                        <div>
+                        <h3>Weather</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="season-box col-span-full" id="directions">
+                    <a class="col-span-full activity-hover" href="https://www.google.com/maps/@42.9844308,-81.2408681,15z?entry=ttu" target="_blank">
+                        <div>
+                        <h3>Directions</h3>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="grid-con" id="FAQ">
+                <h2 class="hidden">Frequently Asked Questions</h2>
+                <div class="col-span-full" id="fishing-heading">
+                    <h2 class="section-title-h1">
+                        <span>Couples Resort</span><br>
+                        FAQ
+                    </h2>
+                </div>
+                <div class="col-span-full line-separator" id="FAQ-list">
+                    <details>
+                        <summary>Are meals included in the price?</summary>
+                        <p>A 5 course gourmet dinner and breakfast are included in the prices. Lunch we offer from 12 noon to 4:00pm at an additional charge, or eat while you are out and about.</p>
+                    </details>
+                    <details>
+                        <summary>Do you accept pets?</summary>
+                        <p>We do not accept pets of any kind.</p>
+                    </details>
+                    <details>
+                        <summary>What is your check-in/check-out time?</summary>
+                        <p>Check in time is 4 pm - 5 pm and check out is at 11 am. You will not be signing a registration upon arrival. You will be accepting your invoice and paying upfront for your stay in advance and taking full responsibility for any and all charges made during your stay.</p>
+                    </details>
+                    <details>
+                        <summary>What's included in my room?</summary>
+                        <p>Some amenities are only available in certain unities. You can find a list of items available in all rooms<a href="rooms.html">clicking on this page.</a></p>
+                    </details>
+                    <details>
+                        <summary>How Can I Make a Reservation?</summary>
+                        <p>You can make a reservation online through our platform or reach us in any prefer method. Our phone number is +1 866 202 1179. Or if you prefer, you can e-mail call us on our social media or e-mail us at info@coupleresort.com</p>
+                    </details>
+                </div>
+            </section>
         </main>
 
         <!-- Page Footer -->

@@ -476,6 +476,20 @@
    background-color: #C26B6A;
 }
 
+#consent-checkbox {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   margin-bottom: 25px;
+   font-size: 12px;
+   color: #7f7f7f;
+}
+
+#consent-checkbox input[type=checkbox]:checked ~ span::after{
+   margin-left: 5px;
+   content: '🔒'
+}
+
 
  /* -------------
  
@@ -483,6 +497,7 @@
 
  #footer {
     background-image: url(../images/footer_mobile.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
  }
@@ -730,4 +745,147 @@ Rooms - Chateaus */
 #fishing-heading span {
    font-size: 12px;
    color: #C26B6A;
+}
+
+/* Contact Page */
+
+#hero-contact {
+   background-image: url(../images/reservations_Hero_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 215px;
+}
+
+#contact-page p {
+   margin-bottom: 25px;
+}
+
+#social-media-links {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+
+.social-media {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 15px;
+}
+
+.social-media img {
+   width: 30px;
+   height: 30px;
+   transition: .3s ease-in-out all;
+}
+
+.social-media img:hover {
+   width: 35px;
+   height: 35px;
+}
+
+.social-media h4 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #9b2018;
+   margin-bottom: 0px;
+}
+
+.social-media h4:hover {
+   text-decoration: underline;
+}
+
+#weather-directions {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+ }
+
+#weather-directions h3 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   font-size: 62px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+   align-self: start;
+}
+
+ #weather {
+   background-image: url(../images/reservation_Weather_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 385px;
+   width: 385px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: end;
+   cursor: pointer;
+ }
+
+ #directions {
+      background-image: url(../images/reservations_Directions_mobile.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 385px;
+      width: 385px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: end;
+      cursor: pointer;
+}
+
+#FAQ {
+   background-color: #F4F4F4;
+   margin-top: 50px;
+   padding-top: 25px;
+   padding-bottom: 50px;
+}
+
+#FAQ-list {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+#FAQ details summary {
+   background-color: #E8E7E7;
+   padding: 10px 15px;
+   cursor: pointer;
+   color: #737373;
+}
+
+#FAQ details summary:hover {
+   background-color: #c44242;
+   padding: 10px 15px;
+   cursor: pointer;
+   color: #ffffff;
+}
+
+#FAQ details summary:focus {
+   background-color: #c44242;
+   padding: 10px 15px;
+   cursor: pointer;
+   color: #ffffff;
+}
+
+#FAQ details p {
+   font-size: 12px;
+   color: #c44242;
+}
+
+#FAQ a {
+   color: #c44242;
+   margin-left: 5px;
+   margin-right: 5px;
+   text-decoration: underline;
+}
+
+#FAQ-list p {
+   margin-top: 15px;
+   margin-bottom: 15px;
 }
