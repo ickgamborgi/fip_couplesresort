@@ -8,6 +8,10 @@
     margin: 20px auto 20px auto;
     border-radius: 50px;
  }
+
+ html {
+   scroll-behavior: smooth;
+ }
  
  body {
     color: #3B3B3B;
@@ -454,6 +458,10 @@
    font: inherit;
 }
 
+#contact-form input:hover, textarea:hover {
+   border: 2px solid #c44242;
+}
+
 #contact-form input:focus, textarea:focus {
    border: 2px solid #9b2018;
    background-color: #b8b8b859;
@@ -714,7 +722,7 @@ Rooms - Template */
    color: #3B3B3B;
 }
 
-#activities-body-text {
+.activities-body-text {
    display: flex;
    flex-direction: column;
    gap: 25px;
@@ -813,7 +821,7 @@ Rooms - Template */
    gap: 25px;
    list-style: none;
    padding-left: 0px;
-   margin-bottom: 35px;
+   padding-bottom: 35px;
 }
 
 #index ul li a {
@@ -833,8 +841,62 @@ Rooms - Template */
     height: 215px;
  }
 
+ .activity-item {
+   margin-bottom: 50px;
+ }
+
+ .activity-subtitle {
+   font-size: 22px;
+   color: #c44242;
+   margin-bottom: 15px;
+ }
+
+.activity-subitem ul, .activity-subitem ol {
+   padding-left: 15px;
+}
+
+
+ .activity-subitem li {
+   list-style: circle;
+   margin-bottom: 10px;
+   font-size: 12px;
+   color: #7f7f7f;
+ }
+
+
+
  #swimming-pool {
    background-image: url(../images/spring_Pool_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+#moose-watching{
+   background-image: url(../images/spring_Moose_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #row-boats {
+   background-image: url(../images/spring_Boats_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #tennis {
+   background-image: url(../images/spring_Tennis_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #horseback {
+   background-image: url(../images/spring_Horses_mobile.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #hiking {
+   background-image: url(../images/spring_Hiking_mobile.jpeg);
    background-repeat: no-repeat;
    background-size: cover;
  }
