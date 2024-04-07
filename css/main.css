@@ -509,7 +509,7 @@
 
 @keyframes check {
    50% {opacity: 0;}
-   100% {opacity: 100;}
+   100% {opacity: 1;}
 }
 
 #consent-checkbox {
@@ -797,7 +797,7 @@ Rooms - Template */
 .spring-text {
    display: flex;
    justify-content: center;
-   align-items: top;
+   align-items: start;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-size: 14px;
    line-height: 18px;
