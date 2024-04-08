@@ -121,7 +121,7 @@
     background-color: #9B2018;
     color: white;
     height: 67px;
-    font-size: 16px;
+    font-size: 13px;
     font-style: italic;
     justify-content: center;
     align-items: center;
@@ -927,6 +927,7 @@ Rooms - Template */
    flex-direction: row;
    align-items: center;
    gap: 15px;
+   cursor: pointer;
 }
 
 .social-media img {
